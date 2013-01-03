@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		479CB8121691D73A0061E668 /* libboost_thread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B682888E14374689002BA48B /* libboost_thread.dylib */; };
+		479CB8131691D73A0061E668 /* libboost_regex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DF1CBF1434AF6A0029A1B1 /* libboost_regex.dylib */; };
+		479CB8141691D73A0061E668 /* libboost_date_time.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DF1CBE1434AF6A0029A1B1 /* libboost_date_time.dylib */; };
+		479CB8151691D73A0061E668 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DF1CE11435F1860029A1B1 /* libboost_system.dylib */; };
+		479CB8161691D73A0061E668 /* libwebsocketpp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DF1C721434A8280029A1B1 /* libwebsocketpp.dylib */; };
+		479CB81D1691D79F0061E668 /* openni_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479CB80C1691D7200061E668 /* openni_server.cpp */; };
+		479CB830169203250061E668 /* libnimCodecs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 479CB82C169203240061E668 /* libnimCodecs.dylib */; };
+		479CB831169203250061E668 /* libnimMockNodes.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 479CB82D169203240061E668 /* libnimMockNodes.dylib */; };
+		479CB832169203250061E668 /* libnimRecorder.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 479CB82E169203240061E668 /* libnimRecorder.dylib */; };
+		479CB833169203250061E668 /* libOpenNI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 479CB82F169203240061E668 /* libOpenNI.dylib */; };
+		479CB835169204720061E668 /* libXnVFeatures_1_5_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 479CB834169204720061E668 /* libXnVFeatures_1_5_2.dylib */; };
+		479CB837169204810061E668 /* libXnVHandGenerator_1_5_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 479CB836169204800061E668 /* libXnVHandGenerator_1_5_2.dylib */; };
 		47C39D7F1691ABDA00241877 /* libboost_regex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C39D7E1691ABDA00241877 /* libboost_regex.dylib */; };
 		47C39D801691AE6600241877 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CF182B1437C3CA009295BE /* libboost_system.dylib */; };
 		47C39D811691AEBC00241877 /* libboost_thread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B682888E14374689002BA48B /* libboost_thread.dylib */; };
@@ -155,6 +167,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		479CB8171691D73A0061E668 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		B61A51BD14DC271900456432 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,6 +278,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		479CB80A1691D7200061E668 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		479CB80B1691D7200061E668 /* openni_client.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = openni_client.html; sourceTree = "<group>"; };
+		479CB80C1691D7200061E668 /* openni_server.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = openni_server.cpp; sourceTree = "<group>"; };
+		479CB80D1691D7200061E668 /* SConscript */ = {isa = PBXFileReference; lastKnownFileType = text; path = SConscript; sourceTree = "<group>"; };
+		479CB81B1691D73A0061E668 /* openni_server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = openni_server; sourceTree = BUILT_PRODUCTS_DIR; };
+		479CB82C169203240061E668 /* libnimCodecs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnimCodecs.dylib; path = "../../OpenNI-Bin-Dev-MacOSX-v1.5.4.0/Lib/libnimCodecs.dylib"; sourceTree = "<group>"; };
+		479CB82D169203240061E668 /* libnimMockNodes.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnimMockNodes.dylib; path = "../../OpenNI-Bin-Dev-MacOSX-v1.5.4.0/Lib/libnimMockNodes.dylib"; sourceTree = "<group>"; };
+		479CB82E169203240061E668 /* libnimRecorder.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnimRecorder.dylib; path = "../../OpenNI-Bin-Dev-MacOSX-v1.5.4.0/Lib/libnimRecorder.dylib"; sourceTree = "<group>"; };
+		479CB82F169203240061E668 /* libOpenNI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenNI.dylib; path = "../../OpenNI-Bin-Dev-MacOSX-v1.5.4.0/Lib/libOpenNI.dylib"; sourceTree = "<group>"; };
+		479CB834169204720061E668 /* libXnVFeatures_1_5_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libXnVFeatures_1_5_2.dylib; path = "../../NITE-Bin-Dev-MacOSX-v1.5.2.21/Features_1_5_2/Bin/libXnVFeatures_1_5_2.dylib"; sourceTree = "<group>"; };
+		479CB836169204800061E668 /* libXnVHandGenerator_1_5_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libXnVHandGenerator_1_5_2.dylib; path = "../../NITE-Bin-Dev-MacOSX-v1.5.2.21/Hands_1_5_2/Bin/libXnVHandGenerator_1_5_2.dylib"; sourceTree = "<group>"; };
 		47C39D7E1691ABDA00241877 /* libboost_regex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_regex.dylib; path = /usr/local/lib/libboost_regex.dylib; sourceTree = "<absolute>"; };
 		B6138760145AD09700ED9B19 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = examples/echo_server/Makefile; sourceTree = "<group>"; };
 		B6138763145AD1F700ED9B19 /* chat_client.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = chat_client.html; path = examples/chat_server/chat_client.html; sourceTree = "<group>"; };
@@ -399,6 +431,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		479CB8111691D73A0061E668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479CB8121691D73A0061E668 /* libboost_thread.dylib in Frameworks */,
+				479CB8131691D73A0061E668 /* libboost_regex.dylib in Frameworks */,
+				479CB8141691D73A0061E668 /* libboost_date_time.dylib in Frameworks */,
+				479CB8151691D73A0061E668 /* libboost_system.dylib in Frameworks */,
+				479CB8161691D73A0061E668 /* libwebsocketpp.dylib in Frameworks */,
+				479CB830169203250061E668 /* libnimCodecs.dylib in Frameworks */,
+				479CB831169203250061E668 /* libnimMockNodes.dylib in Frameworks */,
+				479CB832169203250061E668 /* libnimRecorder.dylib in Frameworks */,
+				479CB833169203250061E668 /* libOpenNI.dylib in Frameworks */,
+				479CB835169204720061E668 /* libXnVFeatures_1_5_2.dylib in Frameworks */,
+				479CB837169204810061E668 /* libXnVHandGenerator_1_5_2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B61A51BC14DC271900456432 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -566,6 +616,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		479CB8091691D7200061E668 /* openni_server */ = {
+			isa = PBXGroup;
+			children = (
+				479CB80A1691D7200061E668 /* Makefile */,
+				479CB80B1691D7200061E668 /* openni_client.html */,
+				479CB80C1691D7200061E668 /* openni_server.cpp */,
+				479CB80D1691D7200061E668 /* SConscript */,
+			);
+			name = openni_server;
+			path = examples/openni_server;
+			sourceTree = "<group>";
+		};
 		B61387A4145D847A00ED9B19 /* http */ = {
 			isa = PBXGroup;
 			children = (
@@ -730,6 +792,12 @@
 		B6DF1C451434A5940029A1B1 = {
 			isa = PBXGroup;
 			children = (
+				479CB836169204800061E668 /* libXnVHandGenerator_1_5_2.dylib */,
+				479CB834169204720061E668 /* libXnVFeatures_1_5_2.dylib */,
+				479CB82C169203240061E668 /* libnimCodecs.dylib */,
+				479CB82D169203240061E668 /* libnimMockNodes.dylib */,
+				479CB82E169203240061E668 /* libnimRecorder.dylib */,
+				479CB82F169203240061E668 /* libOpenNI.dylib */,
 				47C39D7E1691ABDA00241877 /* libboost_regex.dylib */,
 				B6E7E78A150553D000394909 /* libboost_chrono.dylib */,
 				B6FE8D5D14730B2200B32547 /* libssl.dylib */,
@@ -768,6 +836,7 @@
 				B67324A21491A7F100FC2B04 /* stress_client */,
 				B61A51BF14DC271900456432 /* concurrent_server */,
 				B6E7E7731505532E00394909 /* wsperf */,
+				479CB81B1691D73A0061E668 /* openni_server */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -846,6 +915,7 @@
 			children = (
 				B64975A71510C69600BE17D1 /* Makefile */,
 				B64975A81510C6EA00BE17D1 /* common.mk */,
+				479CB8091691D7200061E668 /* openni_server */,
 				B6E56D6414FEFC43007E1707 /* wsperf */,
 				B61A51B614DC207600456432 /* concurrent_server */,
 				B673249A1491A50000FC2B04 /* stress_client */,
@@ -1003,6 +1073,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		479CB80E1691D73A0061E668 /* openni_server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479CB8181691D73A0061E668 /* Build configuration list for PBXNativeTarget "openni_server" */;
+			buildPhases = (
+				479CB80F1691D73A0061E668 /* Sources */,
+				479CB8111691D73A0061E668 /* Frameworks */,
+				479CB8171691D73A0061E668 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openni_server;
+			productName = echo_server;
+			productReference = 479CB81B1691D73A0061E668 /* openni_server */;
+			productType = "com.apple.product-type.tool";
+		};
 		B61A51BE14DC271900456432 /* concurrent_server */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B61A51C614DC271900456432 /* Build configuration list for PBXNativeTarget "concurrent_server" */;
@@ -1259,11 +1346,20 @@
 				B67324A11491A7F100FC2B04 /* stress_client */,
 				B61A51BE14DC271900456432 /* concurrent_server */,
 				B6E7E7721505532E00394909 /* wsperf */,
+				479CB80E1691D73A0061E668 /* openni_server */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		479CB80F1691D73A0061E668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479CB81D1691D79F0061E668 /* openni_server.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B61A51BB14DC271900456432 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1404,6 +1500,72 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		479CB8191691D73A0061E668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"/usr/include/ni/**",
+					"/usr/include/nite/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../OpenNI-Bin-Dev-MacOSX-v1.5.4.0/Lib\"",
+					"\"$(SRCROOT)/../../NITE-Bin-Dev-MacOSX-v1.5.2.21/Features_1_5_2/Bin\"",
+					"\"$(SRCROOT)/../../NITE-Bin-Dev-MacOSX-v1.5.2.21/Hands_1_5_2/Bin\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = openni_server;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		479CB81A1691D73A0061E668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"/usr/include/ni/**",
+					"/usr/include/nite/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../OpenNI-Bin-Dev-MacOSX-v1.5.4.0/Lib\"",
+					"\"$(SRCROOT)/../../NITE-Bin-Dev-MacOSX-v1.5.2.21/Features_1_5_2/Bin\"",
+					"\"$(SRCROOT)/../../NITE-Bin-Dev-MacOSX-v1.5.2.21/Hands_1_5_2/Bin\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = openni_server;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
 		B61A51C714DC271900456432 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1950,6 +2112,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		479CB8181691D73A0061E668 /* Build configuration list for PBXNativeTarget "openni_server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479CB8191691D73A0061E668 /* Debug */,
+				479CB81A1691D73A0061E668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B61A51C614DC271900456432 /* Build configuration list for PBXNativeTarget "concurrent_server" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
